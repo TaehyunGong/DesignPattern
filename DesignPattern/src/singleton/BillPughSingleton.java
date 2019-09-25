@@ -6,6 +6,7 @@ package singleton;
  * 1. JLS Class load 법칙에 의거해 Thread Safe 방지
  * 2. Run-time Dynamic loading으로 getInstance 실행시 메모리 적재
  * 3. Double if에 비해 상대적으로 간소화된 코드
+ * 4. JVM의 기본적인 기능을 응용함으로 모든 버전에 사용가능
  * 
  * 단점
  * 1. Holder 클래스로 인한 추가된 static class 생성 (BillPughSingleton$BillPughSingletonHolder)
